@@ -1,0 +1,778 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>FP9-Matematik_med_hjælpemidler-digital prøve</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="css/tools.css" type="text/css"/>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/uvm-top-logos.js"></script> 
+    <script src="js/uvm_html5_opgave_samlet.js"></script> 
+    <script src="js/jquery.mousewheel.js"></script> 
+    <script type="text/javascript" src="js/flowtype.js"></script>
+    <script type="text/javascript" src="js/video-player-subtitles.js"></script>
+    <script type="text/javascript" src="js/browser-detect.js"></script>
+    <script type="text/javascript" src="js/video-player-samlet.js"></script>
+    <script type="text/javascript" src="js/audio-player.js"></script>
+    <script src="js/imageSlider.js"></script>
+    <script type="text/javascript" src="js/jquery.tooltip.js"></script>
+    <style>
+    .frac {
+        display: inline-flex;
+        flex-direction: column;
+        width: auto;
+        line-height:1em;
+        vertical-align: middle;
+    }
+    .frac div {
+        line-height:1em;
+        text-align:center;
+    }
+    .frac div:not(:last-child) {
+        border-bottom:1px solid #000000;
+    }
+    .point h2 {
+        float:left;
+    }
+    .point span {
+        float:right;
+    }
+
+    </style>
+</head>
+<body data-taskid="" data-fag="fs" style="visibility:hidden">
+    <div class="wrapper">
+        <div class="top">
+            <div id="uvmLogo"><img src="images/uvm_logo_stuk.png" alt="logo" /></div>
+        </div> <!--End Top-->
+        <div class="main">
+            <div id="menuWrapper">
+                <div id="menu">
+                </div> <!-- END MENU -->
+                <div id="taskNumber">&nbsp;</div>
+            </div>
+            <div id="content">
+                <!--Forside-->
+                <div class="PAGE" data-id="1" data-parentid="0" data-layout="0" data-menutekst="Forside">
+                    <div style="height:95px;">&nbsp;</div>
+                    <div style="height:305px;">
+                        <hr style="margin-bottom: 20px; border-bottom: 1px solid black; border-top: 0px solid black; width: 200px" align="left" />
+                        <div style="font-size: 1.7em; font-weight: bold; padding: 5px 0 5px 0;">Matematik FP9</div>
+                        <hr style="margin-top: 20px; border-bottom: 1px solid black; border-top: 0px; width: 455px;" align="left" />
+                        <br />Prøven med hjælpemidler
+                        <br /><br />
+                        Til dette opgavesæt hører en billedfil til opgave 3, et svarark til opgave 3 og en regnearksfil til opgave 4.
+                    </div>                    
+					<br /><br /><br /><br />
+                    Onsdag den 2. december 2020
+                    <br />
+                    kl. 10.00-13.00
+                    <br /><br /><br /><br />
+                    Ved prøven må der anvendes alle de fagspecifikke hjælpemidler, som har været anvendt i den daglige undervisning. Fagspecifikke hjælpemidler, som ikke kan medbringes eller opbevares lokalt, kan efter skolelederens nærmere anvisninger tilgås via internettet.
+                </div>
+
+                 <!--Mellemrum-->
+                <div class="PAGE" data-id="2" data-parentid="0" data-layout="0" data-menutekst=""></div>
+
+
+				<!--Vejledning-->
+				<div class="PAGE" data-id="3" data-parentid="0" data-layout="0" data-menutekst="Vejledning">
+                    <h1>Vejledning</h1>
+                    <br />                    
+                    Kære elev
+                    <br /><br />
+                    Prøven består af 7 opgaver. Du har 3 timer til at løse dem.
+                    <br />
+                    Ved hver opgave står der, hvor mange point den højst kan give. Prøven kan i alt højst give 67 point. Du bestemmer selv, hvilken rækkefølge du laver opgaverne i, og hvor lang tid du vil bruge på hver af dem.
+                    <br /><br />
+                    Det er vigtigt, at du begrunder dine svar i <i>alle</i> opgaver.
+                    <br />
+                    Det betyder, at du i hver opgave skal vise eller forklare, hvordan du er nået frem til dit svar. Du kan fx begrunde dit svar med tekst, beregninger og/eller tegninger.
+                    <br /><br />
+                    En del af de point, du kan få i hver opgave, kommer fra dine begrundelser. I de fleste opgaver kan du ikke få det højeste antal point, hvis du ikke begrunder dit svar, selv om dine resultater er rigtige.
+                    <br /><br />
+                    I nogle af opgaverne skal du beregne et antal eller en størrelse. I andre opgaver skal du vise, hvordan du finder frem til et bestemt resultat eller afgøre, om en påstand er sand eller falsk.
+                    <br /><br />
+                    Der er også opgaver, hvor du skal løse et matematisk problem ved at undersøge. I disse opgaver forventer vi ikke, at du på forhånd kender en metode, du kan bruge til at løse problemet. Ordet ’undersøg’ signalerer, at du selv skal finde på en god måde at løse problemet på ved at bruge matematik, du kender.
+                    <br /><br />
+                    God arbejdslyst.
+                    <br /><br />
+                    Styrelsen for Undervisning og Kvalitet
+                    <br /><br /><br /><br />
+                </div>
+                
+                <!--Mellemrum-->
+                <div class="PAGE" data-id="4" data-parentid="0" data-layout="0" data-menutekst=""></div>
+                
+                <!--Opgave 1-->
+				<div class="PAGE" data-id="5" data-parentid="0" data-layout="0" data-menutekst="Opgave 1">
+                    <div class="box-group">
+                        <div class="group">
+                            <h1 class="box blue header-number" style="margin-right:20px;">1</h1>
+                        </div>
+                        <div class="group fill">
+                            <span class="box fill blue" style="padding:2px 6px;justify-content:space-between;">
+                                <h2 class="header-title">Billetter til en klatrepark</h2>
+                                <span  style="line-height: 28px;">Opgave 1 giver højst 11 point</span>
+                            </span>
+                        </div>
+                    </div>                 
+                    <br /><br /><br />
+
+                    <div style="display:inline-block;">
+                        <div style="width:70%;display:inline-block;">
+                            <table style="width:100%;">
+                                <tr style="height:4em;">
+                                    <td>&nbsp;</td>
+                                    <td style="vertical-align: top"> 
+                                        En ungdomsklub planlægger en tur til en klatrepark.
+                                        <br />
+                                        Enkeltbilletter til klatreparken koster 274 kr. pr. barn, dvs. personer under 18 år, og 319 kr. pr. voksen.
+                                        <br /><br />                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align: top; width: 42px;"><span class="box blue">1.1</span></td>
+                                    <td><div style="padding-top:calc(0.1em + 2px);">
+                                        Hvor stor er prisforskellen på en enkeltbillet til en voksen og en enkeltbillet til et barn?
+                                        <br /><br /><br />
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align: top; width: 42px;"><span class="box blue">1.2</span></td>
+                                    <td><div style="padding-top:calc(0.1em + 2px);">
+                                        Hvad koster enkeltbilletter til 20 børn og 2 voksne i alt?
+                                        <br /><br /><br />
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align: top; width: 42px;"><span class="box blue">1.3</span></td>
+                                    <td><div style="padding-top:calc(0.1em + 2px);">
+                                        Forklar, hvorfor man kan bruge udtrykket 274<i>n</i> + 638 til at beregne, hvad enkeltbilletter til <i>n</i> børn og 2 voksne koster i alt.
+                                        <br /><br /><br />
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div style="width:30%;float:right;">
+                            <img src="files/194033_opg_1_billede_1.jpg" alt="" width="100%">
+                            <br />
+                            <span style="font-size: 80%;">Foto: Opgavekommissionen i matematik</span>
+                        </div>
+                    </div>
+                    <table style="width:100%;">
+                        <tr>
+                            <td style="vertical-align: top;width:40px;"></td>
+                            <td><br />Klatreparken sælger også gruppebilletter, der gælder til både børn og voksne. Tabellen herunder viser, hvad disse billetter koster.
+                                <br />
+                                <div class="svg" style="width:40%; margin-left: 30%;">
+                                    <canvas width="168" height="100"></canvas>
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 654.92 389.95">
+                                        <g id="a7c4bac9-ec0c-4c8b-85ca-c0bbb3f2da5c" data-name="Layer 1">
+                                          <image width="655" height="390" xlink:href="files/194033_opg_1_billede_2.png"/>
+                                        </g>
+                                        <g id="b4d28d03-0d71-44c2-b8c7-df65e7cd2479" data-name="Layer 2">
+                                          <text transform="translate(81.49 50) scale(1.17 1)" style="font-size: 26.243694305419922px;font-family: ArialMT, Arial;fill:rgba(0,0,0,0);">Antal personer</text>
+                                          <text transform="translate(481.46 45.48)" style="font-size: 24px;font-family: ArialMT, Arial;fill:rgba(0,0,0,0);">Pris</text>
+                                          <text transform="translate(156.46 108.48)" style="font-size: 24px;font-family: ArialMT, Arial;fill:rgba(0,0,0,0);">1-10</text>
+                                          <text transform="translate(443.46 111.72) scale(1.02 1)" style="font-size: 29.414241790771484px;font-family: ArialMT, Arial;fill:rgba(0,0,0,0);">2.800 kr.</text>
+                                          <text transform="translate(145.46 174.27) scale(1.02 1)" style="font-size: 27.723426818847656px;font-family: ArialMT, Arial;fill:rgba(0,0,0,0);">11-20</text>
+                                          <text transform="translate(443.46 173.89) scale(0.94 1)" style="font-size: 31.95046615600586px;font-family: ArialMT, Arial;fill:rgba(0,0,0,0);">4.800 kr.</text>
+                                          <text transform="translate(142.46 236.72)" style="font-size: 29.414241790771484px;font-family: ArialMT, Arial;fill:rgba(0,0,0,0);">21-30</text>
+                                          <text transform="translate(440.46 237.17) scale(1.04 1)" style="font-size: 31.105056762695312px;font-family: ArialMT, Arial;fill:rgba(0,0,0,0);">6.400 kr</text>
+                                          <text transform="translate(142.46 300.07) scale(0.84 1)" style="font-size: 34.48668670654297px;font-family: ArialMT, Arial;fill:rgba(0,0,0,0);">31-40</text>
+                                          <text transform="translate(444.46 298.89) scale(0.92 1)" style="font-size: 31.95046615600586px;font-family: ArialMT, Arial;fill:rgba(0,0,0,0);">7.600 kr.</text>
+                                          <text transform="translate(144.46 360.99) scale(0.97 1)" style="font-size: 28.568832397460938px;font-family: ArialMT, Arial;fill:rgba(0,0,0,0);">41-50</text>
+                                          <text transform="translate(445.46 362.52) scale(0.81 1)" style="font-size: 36.17750549316406px;font-family: ArialMT, Arial;fill:rgba(0,0,0,0);">8.800 kr.</text>
+                                        </g>
+                                      </svg>                                                                          
+                                </div>                               
+                                <br /><br />
+                                Ungdomsklubben planlægger, at der skal 2 voksne med på turen, og at højst 40 børn kan komme med. 
+                                <br /><br />  <br />               
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: top; width: 42px;"><span class="box blue">1.4</span></td>
+                            <td><div style="padding-top:calc(0.1em + 2px);">
+                                Undersøg, hvor mange børn der skal med på turen, for at det er billigere at købe en gruppebillet end at købe enkeltbilletter.
+                                <br /><br />
+                                </div>
+                            </td>
+                        </tr>                        
+                    </table>
+                    <br /><br /><br /><br />
+                </div>
+                
+                <!--Opgave 2-->
+                <div class="PAGE" data-id="6" data-parentid="0" data-layout="0" data-menutekst="Opgave 2">
+                    <div class="box-group">
+                        <div class="group">
+                            <h1 class="box blue header-number" style="margin-right:20px;">2</h1>
+                        </div>
+                        <div class="group fill">
+                            <span class="box fill blue" style="padding:2px 6px;justify-content:space-between;">
+                                <h2 class="header-title">Klatreparkens bod</h2>
+                                <span  style="line-height: 28px;">Opgave 2 giver højst 6 point</span>
+                            </span>
+                        </div>
+                    </div> 
+                    <br /><br />
+                   
+                    <table style="width:100%;">
+                        <tr>
+                            <td style="vertical-align: top;width:40px;"></td>
+                            <td>  
+                                Ved klatreparken er der en bod, hvor man kan købe saftevand, kakao og chokolade.
+                                <br /><br />   
+                                <div class="svg" style="width:80%; margin-left: 10%;">
+                                    <canvas width="163" height="100"></canvas>
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1049.87 645.92">
+                                        <g id="a16767ea-cd10-4450-b70f-089ad14a398e" data-name="Layer 1">
+                                          <image width="1050" height="646" xlink:href="files/194033_opg_2.png"/>
+                                        </g>
+                                        <g id="f82da9f5-88ca-4ee4-af40-d6b8566608ff" data-name="Layer 2">
+                                          <text transform="matrix(0.8, -0.17, 0.21, 0.98, 61.35, 182.06)" style="font-size: 94.15245819091797px;font-family: ArialMT, Arial;fill:rgba(0,0,0,0);">Klatreparken</text>
+                                          <text transform="translate(768.93 150.47) scale(1.01 1)" style="font-size: 36.5994873046875px;font-family: ArialMT, Arial;fill:rgba(0,0,0,0);">Kakao</text>
+                                          <text transform="translate(761.93 258.28) scale(0.86 1)" style="font-size: 101.8494873046875px;font-family: ArialMT, Arial;fill:rgba(0,0,0,0);">15 kr.</text>
+                                          <text transform="translate(280.93 448.66) scale(1.25 1)" style="font-size: 29.8494873046875px;font-family: ArialMT, Arial;fill:rgba(0,0,0,0);">Saftevand</text>
+                                          <text transform="translate(284.94 555.34) scale(0.79 1)" style="font-size: 104.74234771728516px;font-family: ArialMT, Arial;fill:rgba(0,0,0,0);">6 kr.</text>
+                                          <text transform="matrix(0.76, -0.74, 0.7, 0.72, 603.22, 473.05)" style="font-size: 23.0994873046875px;font-family: ArialMT, Arial;fill:rgba(0,0,0,0);">Chocobar</text>
+                                          <text transform="translate(771.93 436.74) scale(0.95 1)" style="font-size: 38.8494873046875px;font-family: ArialMT, Arial;fill:rgba(0,0,0,0);">Chokolade</text>
+                                          <text transform="translate(766.94 542.44) scale(0.84 1)" style="font-size: 101.36236572265625px;font-family: ArialMT, Arial;fill:rgba(0,0,0,0);">8 kr.</text>
+                                        </g>
+                                    </svg>                                   
+                                </div>
+                                <span style="font-size: 80%; float: right; margin-right: 11%;">Tegning: Hans Ole Herbst</span>
+                                <br /><br />
+                                En gruppe børn fra ungdomsklubben købte tilsammen for 90 kr.
+                                <br /><br />                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: top; width: 42px;"><span class="box blue">2.1</span></td>
+                            <td><div style="padding-top:calc(0.1em + 2px);">
+                                Du skal undersøge, hvor mange krus saftevand, krus kakao og stykker chokolade børnene kan have købt. Skriv alle de forskellige muligheder, der er, når børnene ikke nødvendigvis har købt alle tre slags varer.
+                                <br /><br />
+                                </div>
+                            </td>
+                        </tr>                        
+                    </table>
+                    <br /><br /><br /><br />
+                </div>
+                
+                <!--Opgave 3-->
+                <div class="PAGE" data-id="7" data-parentid="0" data-layout="0" data-menutekst="Opgave 3">
+                    <div class="box-group">
+                        <div class="group">
+                            <h1 class="box blue header-number" style="margin-right:20px;">3</h1>
+                        </div>
+                        <div class="group fill">
+                            <span class="box fill blue" style="padding:2px 6px;justify-content:space-between;">
+                                <h2 class="header-title">De Geometriske Haver</h2>
+                                <span  style="line-height: 28px;">Opgave 3 giver højst 8 point</span>
+                            </span>
+                        </div>
+                    </div> 
+                    <br /><br />
+                    
+                    
+                    <div style="display:inline-block;">
+                        <div style="width:50%;display:inline-block;">
+                            <table style="width:100%;">
+                                <tr style="height:4em;">
+                                    <td style="width: 42px;">&nbsp;</td>
+                                    <td style="vertical-align: top"> 
+                                        <br /><br />
+                                        De Geometriske Haver i Herning består af hække, der er plantet, så de ligner geometriske figurer. Du kan se haverne på fotoet til højre.
+                                        <br /><br /><br />
+                                        Nogle af hækkene har form som regulære polygoner. Disse hække har alle en udvendig sidelængde på 11 m.
+                                        <br /><br />                                        
+                                    </td>
+                                </tr>                                                        
+                            </table>
+                        </div>
+                        <div style="width:50%;float:right;">
+                            <img src="files/194033_opg_3_billede_1.jpg" alt="" width="100%">
+                            <br />
+                            <span style="font-size: 80%;">Foto: Opgavekommissionen i matematik</span>
+                        </div>
+                    </div>
+
+                    <table>
+                        <tr>
+                            <td style="vertical-align: top; width: 42px;"><span class="box blue">3.1</span></td>
+                            <td><div style="padding-top:calc(0.1em + 2px);">
+                                Hvor stor er den udvendige omkreds af hækken, der har form som en regulær sekskant?
+                                <br /><br /><br />
+                                Da hækkene blev plantet, skulle gartnerne kende vinkelstørrelserne i polygonerne.
+                                <br /><br />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: top; width: 42px;"><span class="box blue">3.2</span></td>
+                            <td>
+                                <div style="padding-top:calc(0.1em + 2px);">
+                                    Forklar, hvordan de kunne vide, at hver vinkel i den regulære syvkant skulle være ca. 129&deg;.
+                                    <br /><br /><br />
+                                    For at kunne plante hækken, der har form som en cirkel, måtte gartnerne vide, hvor cirklens centrum skulle være. Centrum skulle have samme afstand til femkanten, sekskanten og syvkanten.
+                                    <br />
+                                    Alberte og Bertil har vist med skitserne herunder, hvordan de tror, at gartnerne har fundet ud af, hvor cirklens centrum skulle være.
+                                    <br /><br />      
+                                </div>
+                                <table style="width: 100%; border-collapse: collapse;" cellpadding="5">
+                                    <tr>
+                                        <td style="width: 50%; border: 1px solid black;">
+                                            <img src="files/194033_opg_3_billede_2.png" alt="" style="width: 70%; margin-left: 15%;">
+                                            <br />
+                                            <span style="margin-left: 15%;"><i>Skitse</i></span>
+                                            <br /><br />
+                                        </td>
+                                        <td style="width: 50%; border: 1px solid black;">
+                                            <img src="files/194033_opg_3_billede_3.png" alt="" style="width: 70%; margin-left: 15%;">
+                                            <br />
+                                            <span style="margin-left: 15%;"><i>Skitse</i></span>
+                                            <br /><br />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: 1px solid black;">
+                                            Alberte: De har fundet midtpunkterne af siderne og tegnet vinkelrette linjer. Cirklens centrum må være i disse linjers skæringspunkt.
+                                        </td>                                        
+                                        <td style="border: 1px solid black;">
+                                            Bertil: De har forlænget siderne og tegnet vinkelhalveringslinjer. Cirklens centrum må være i disse linjers skæringspunkt.
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>       
+                    </table>                    
+                    <br />
+
+                    <table style="width:100%;">                        
+                        <tr>
+                            <td style="vertical-align: top; width: 42px;"><span class="box blue">3.3</span></td>
+                            <td><div style="padding-top:calc(0.1em + 2px);">
+                                Undersøg, om Alberte, Bertil eller de begge kan have ret. Brug eventuelt filen <a href="#" onclick="UVM.view.funcLoadMenu(13, 0); UVM.view.funcLoadContent(13, 0);">HAVER_DEC_2020</a> eller svararket.                                
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <br /><br /><br /><br />
+                </div>
+                
+                <!--Opgave 4-->
+                <div class="PAGE" data-id="8" data-parentid="0" data-layout="0" data-menutekst="Opgave 4">
+                    <div class="box-group">
+                        <div class="group">
+                            <h1 class="box blue header-number" style="margin-right:20px;">4</h1>
+                        </div>
+                        <div class="group fill">
+                            <span class="box fill blue" style="padding:2px 6px;justify-content:space-between;">
+                                <h2 class="header-title">Ture med ungdomsklubben</h2>
+                                <span   style="line-height: 28px;">Opgave 4 giver højst 12 point</span>
+                            </span>
+                        </div>
+                    </div> 
+                    <br /><br />
+
+                    <table style="width:100%;">
+                        <tr>
+                            <td style="vertical-align: top;width:40px;"></td>
+                            <td>
+                                Alberte og Bertil går i en ungdomsklub med to afdelinger, en i Skovby og en i Mejlby. De har spurgt hvert medlem i de to afdelinger, hvor mange ture de har deltaget i på et år. I regnearksfilen <a href="#" onclick="UVM.view.funcLoadMenu(15, 0); UVM.view.funcLoadContent(15, 0);">TURE_DEC_2020</a> kan du se medlemmernes svar.
+                                <br /><br />                                           
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: top; width: 42px;"><span class="box blue">4.1</span></td>
+                            <td><div style="padding-top:calc(0.1em + 2px);">
+                                Hvor mange ture har medlemmerne i Mejlby i gennemsnit deltaget i på et år?
+                                <br /><br /><br />
+                                </div>
+                            </td>
+                        </tr>   
+                        <tr>
+                            <td style="vertical-align: top; width: 42px;"><span class="box blue">4.2</span></td>
+                            <td><div style="padding-top:calc(0.1em + 2px);">
+                                Tegn et søjlediagram, der viser fordelingen af de forskellige antal ture, medlemmerne i Skovby har deltaget i.
+                                <br /><br /><br />
+                                </div>
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td style="vertical-align: top; width: 42px;"><span class="box blue">4.3</span></td>
+                            <td><div style="padding-top:calc(0.1em + 2px);">
+                                Beskriv ligheder og forskelle mellem fordelingen af de antal ture, medlemmerne i Mejlby har deltaget i, og fordelingen af de antal ture, medlemmerne i Skovby har deltaget i på et år.
+                                <br /><br /><br /><br />
+                                Alberte og Bertil vil skrive en artikel til ungdomsklubbens blad om det antal ture, medlemmerne i Skovby og Mejlby samlet set har deltaget i. De overvejer disse tre overskrifter:
+                                <br />
+                                <ul style="margin-left: -15px;">
+                                    <li>Over halvdelen af medlemmerne har deltaget i 3 eller flere ture på et år.</li>
+                                    <li>9 ud af 10 medlemmer har deltaget i ture det seneste år.</li>
+                                    <li>Hvert tredje medlem har deltaget i færre end 3 ture på et år.</li>
+                                </ul>
+                                </div>
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td style="vertical-align: top; width: 42px;"><span class="box blue">4.4</span></td>
+                            <td><div style="padding-top:calc(0.1em + 2px);">
+                                Forklar, hvilken eller hvilke af de 3 overskrifter der passer til det, data fra undersøgelsen viser.
+                                <br /><br /><br /> 
+                                </div>
+                            </td>
+                        </tr>                        
+                    </table>
+
+                    <br /><br /><br /><br />
+                </div>
+          		
+                <!--Opgave 5-->
+                <div class="PAGE" data-id="9" data-parentid="0" data-layout="0" data-menutekst="Opgave 5">
+                    <div class="box-group">
+                        <div class="group">
+                            <h1 class="box blue header-number" style="margin-right:20px;">5</h1>
+                        </div>
+                        <div class="group fill">
+                            <span class="box fill blue" style="padding:2px 6px;justify-content:space-between;">
+                                <h2 class="header-title">Rubjerg Knude Fyr</h2>
+                                <span   style="line-height: 28px;">Opgave 5 giver højst 9 point</span>
+                            </span>
+                        </div>
+                    </div> 
+                    <br /><br />   
+                    <div style="display:inline-block;">
+                        <div style="width:50%;display:inline-block;">
+                            <table style="width:100%;">
+                                <tr style="height:4em;">
+                                    <td>&nbsp;</td>
+                                    <td style="vertical-align: top"> 
+                                        Rubjerg Knude Fyr ved Vesterhavet blev bygget i 1900. Dengang stod fyret ca. 200 m fra en skrænt. På grund af nedslidning af jordoverfladen bliver afstanden mellem fyret og skrænten hele tiden mindre. I oktober 2019 stod fyret ca. 7 m fra skrænten.
+                                        <br /><br /><br />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align: top; width: 42px;"><span class="box blue">5.1</span></td>
+                                    <td><div style="padding-top:calc(0.1em + 2px);">
+                                        Du skal vise med beregning, at fyrets afstand til skrænten i gennemsnit blev ca. 1,62 m kortere pr. år i perioden fra år 1900 til 2019.
+                                        <br /><br /><br />
+                                        </div>
+                                    </td>
+                                </tr>
+                                
+                            </table>
+                        </div>
+                        <div style="width:50%;float:right;">
+                            <div class="svg" style="width:100%;">
+                                <canvas width="451" height="100"></canvas>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 855.89 189.98">
+                                    <g id="bfcd8e8e-021a-4b27-8da8-ddca977dfdc3" data-name="Layer 1">
+                                      <image width="856" height="190" xlink:href="files/194033_opg_5_billede_1.png"/>
+                                    </g>
+                                    <g id="fa8b78a3-2b34-4ad1-9324-a37c04212f80" data-name="Layer 2">
+                                      <text transform="translate(445.95 66.64) scale(1.04 1)" style="font-size: 23.8494873046875px;font-family: ArialMT, Arial;fill:rgba(0,0,0,0);">200 m</text>
+                                      <text transform="translate(19.95 169.4) scale(0.99 1)" style="font-size: 24.5994873046875px;font-family: ArialMT, Arial;fill:rgba(0,0,0,0);">1900</text>
+                                    </g>
+                                  </svg>                              
+                            </div>
+                            <div style="font-size: 80%; text-align: right;">Tegning Hans Ole Herbst.</div> 
+                            <br /><br /> 
+                            <div class="svg" style="width:100%;">
+                                <canvas width="460" height="100"></canvas>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 854.89 185.98">
+                                    <g id="e2a5c13b-2b84-495c-95a9-b57c26519b46" data-name="Layer 1">
+                                      <image width="855" height="186" xlink:href="files/194033_opg_5_billede_2.png"/>
+                                    </g>
+                                    <g id="a2d2e757-a991-4a9d-bf80-25ca6d1c7620" data-name="Layer 2">
+                                      <text transform="translate(11.45 166.15) scale(0.98 1)" style="font-size: 25.3494873046875px;font-family: ArialMT, Arial; fill: rgba(1,1,1,0);">21. oktober 2019</text>
+                                    </g>
+                                </svg>                              
+                            </div>
+                            <div style="font-size: 80%; text-align: right;">Tegning Hans Ole Herbst.</div> 
+                        </div>
+                        
+                    </div>
+                    <br />
+                    <table style="width:100%;">
+                        <tr>
+                            <td style="vertical-align: top;width:40px;"></td>
+                            <td>   
+                                Funktionen <i>f</i> (<i>x</i>) = 200 – 1,62x er en matematisk model, som beskriver sammenhængen mellem antal år efter 1900, <i>x</i>, og fyrets afstand til skrænten, <i>f</i>(<i>x</i>).
+                                <br /><br /><br />
+                            </td>                        
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: top; width: 42px;"><span class="box blue">5.2</span></td>
+                            <td><div style="padding-top:calc(0.1em + 2px);">
+                                Forklar, hvordan du kan se på forskriften, at grafen for <i>f</i> er en ret linje.
+                                <br /><br />
+                                </div>
+                            </td>
+                        </tr>                       
+                    </table>
+                    <br /><br />
+
+                    <div style="display:inline-block;">
+                        <div style="width:50%;display:inline-block;">
+                            <table style="width:100%;">
+                                <tr style="height:4em;">
+                                    <td style="width: 42px;">&nbsp;</td>
+                                    <td style="vertical-align: top"> 
+                                        D. 22. oktober 2019 blev fyret flyttet 70 m, så det kom til at stå 77 m fra skrænten.
+                                        <br /><br />
+                                        Nogle forskere mener, at ændringer i klimaet kan betyde, at nedslidningen af jordoverfladen sker lidt hurtigere år for år.
+                                        <br /><br /><br />
+                                    </td>
+                                </tr>                                
+                            </table>
+                        </div>
+                        <div style="width:50%;float:right;">
+                            <div class="svg" style="width:100%;">
+                                <canvas width="466" height="100"></canvas>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 857.89 183.98">
+                                    <g id="ac9bc160-bc55-4dfc-9cc6-b180a1f18ac9" data-name="Layer 1">
+                                      <image width="858" height="184" xlink:href="files/194033_opg_5_billede_3.png"/>
+                                    </g>
+                                    <g id="b6aee441-7338-4f19-9263-40e229667c9e" data-name="Layer 2">
+                                      <text transform="translate(152.95 63.94) scale(0.77 1)" style="font-size: 29.0994873046875px;font-family: ArialMT, Arial;fill:rgba(0,0,0,0);">77 m</text>
+                                      <text transform="translate(13.95 165.69) scale(0.84 1)" style="font-size: 29.8494873046875px;font-family: ArialMT, Arial;fill:rgba(0,0,0,0);">22. oktober 2019</text>
+                                    </g>
+                                  </svg>                         
+                            </div>
+                            <div style="font-size: 80%; text-align: right;">Tegning Hans Ole Herbst.</div> 
+                            <br /><br />                             
+                        </div>                        
+                    </div>
+                    <br />
+                    <table style="width:100%;">
+                        <tr>
+                            <td style="vertical-align: top; width: 42px;"><span class="box blue">5.3</span></td>
+                            <td><div style="padding-top:calc(0.1em + 2px);">
+                                Undersøg, hvornår fyret bør flyttes igen, hvis det stykke, der bliver slidt væk, bliver 2 % større, for hvert år der går fra 2019. Antag, at det stykke, der blev slidt væk i 2019, var 1,62 m.
+                                <br /><br />
+                                </div>
+                            </td>
+                        </tr>                       
+                    </table>
+
+                    <br /><br /><br /><br />
+                </div>
+          		
+                <!--Opgave 6-->
+                <div class="PAGE" data-id="10" data-parentid="0" data-layout="0" data-menutekst="Opgave 6">
+                    <div class="box-group">
+                        <div class="group">
+                            <h1 class="box blue header-number" style="margin-right:20px;">6</h1>
+                        </div>
+                        <div class="group fill">
+                            <span class="box fill blue" style="padding:2px 6px;justify-content:space-between;">
+                                <h2 class="header-title">Figurfølge</h2>
+                                <span  style="line-height: 28px;">Opgave 6 giver højst 13 point</span>
+                            </span>
+                        </div>
+                    </div> 
+                    <br /><br />
+                    <table style="width:100%;">
+                        <tr>
+                            <td style="vertical-align: top;width:40px;"></td>
+                            <td>
+                                Herunder er figur 1, figur 2 og figur 3 i en figurfølge. Linjestykket til venstre har længden 1, og det grå kvadrat har arealet 1.
+                                <br /><br />
+                                <div class="svg" style="width:80%; margin-left: 10%;">
+                                    <canvas width="270" height="100"></canvas>
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 901.89 333.96">
+                                        <g id="ecbce9e1-3742-4410-a834-5417d1a7801d" data-name="Layer 1">
+                                          <image width="902" height="334" xlink:href="files/194033_opg_6.png"/>
+                                        </g>
+                                        <g id="ee73fb65-9733-4fac-af0d-5936a2b385c2" data-name="Layer 2">
+                                          <text transform="translate(56.94 181.88) scale(0.96 1)" style="font-size: 23.0994873046875px;font-family: ArialMT, Arial; fill: rgba(1,1,1,0);">1</text>
+                                          <text transform="translate(55.94 280.15) scale(0.82 1)" style="font-size: 25.3494873046875px;font-family: ArialMT, Arial; fill: rgba(1,1,1,0);">1</text>
+                                        </g>
+                                    </svg>                           
+                                </div>
+                                <table style="width: 100%;">
+                                    <tr>
+                                        <td style="width: 34%;">&nbsp;</td>
+                                        <td style="width: 17%;">figur 1</td>
+                                        <td style="width: 22%;">figur 2</td>
+                                        <td>figur 3</td>
+                                    </tr>
+                                </table>
+                                <br /><br />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: top; width: 42px;"><span class="box blue">6.1</span></td>
+                            <td><div style="padding-top:calc(0.1em + 2px);">
+                                Tegn figur 4 i figurfølgen.
+                                <br /><br /><br />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: top; width: 42px;"><span class="box blue">6.2</span></td>
+                            <td><div style="padding-top:calc(0.1em + 2px);">
+                                Hvor stor er omkredsen af figur 3?
+                                    <br /><br /><br />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: top; width: 42px;"><span class="box blue">6.3</span></td>
+                            <td>
+                                <div style="padding-top:calc(0.1em + 2px);">
+                                    Hvor stor er omkredsen af figur <i>n</i>?
+                                    <br /><br /><br /><br />
+                                    Alberte, Bertil og Oliver har skrevet hver sin formel til at beregne arealet af figur n.
+                                    <br /><br />
+                                    <table style="width: 40%; margin-left: 30%; border: 2px solid #009ee3;" cellpadding="5">
+                                        <tr>
+                                            <td style="width: 50%;">
+                                                Albertes formel:
+                                            </td>
+                                            <td>
+                                                <i>A</i> = <i>n</i> &middot; (<i>n</i> + 1) + 1
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 50%;">
+                                                Bertils formel:
+                                            </td>
+                                            <td>
+                                                <i>A</i> = (<i>n</i> + 1)<sup style="line-height: 0.4em;">2</sup> – <i>n</i>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 50%;">
+                                                Olivers formel:
+                                            </td>
+                                            <td>
+                                                <i>A</i> = <i>n</i><sup style="line-height: 0.4em;">2</sup> + <i>n</i> + 1
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <br /><br />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: top; width: 42px;"><span class="box blue">6.4</span></td>
+                            <td>
+                                <div style="padding-top:calc(0.1em + 2px);">
+                                    Vælg en af formlerne, og forklar, hvorfor man kan bruge den til at beregne arealet af figur <i>n</i>.
+                                    <br /><br /><br />
+                                    Oliver kan omskrive både Albertes og Bertils formel til <i>A</i> = <i>n</i><sup style="line-height: 0.4em;">2</sup> + <i>n</i> + 1 med et CAS-værktøj, men han kan ikke forklare, hvorfor det er sådan.
+                                    <br /><br />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: top; width: 42px;"><span class="box blue">6.5</span></td>
+                            <td>
+                                <div style="padding-top:calc(0.1em + 2px);">
+                                    Forklar, hvilke regneregler, der gør, at man kan omskrive både Albertes og Bertils formel til <i>A</i> = <i>n</i><sup style="line-height: 0.4em;">2</sup> + <i>n</i> + 1.
+                                    <br /><br /><br />
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <br /><br /><br /><br />
+                </div>
+                    
+				<!--Opgave 7-->
+                <div class="PAGE" data-id="11" data-parentid="0" data-layout="0" data-menutekst="Opgave 7">
+                    <div class="box-group">
+                        <div class="group">
+                            <h1 class="box blue header-number" style="margin-right:20px;">7</h1>
+                        </div>
+                        <div class="group fill">
+                            <span class="box fill blue" style="padding:2px 6px;justify-content:space-between;">
+                                <h2 class="header-title">Figurer med arealet 50</h2>
+                                <span   style="line-height: 28px;">Opgave 7 giver højst 8 point</span>
+                            </span>
+                        </div>
+                    </div> 
+                    <br /><br />
+                    <table style="width:100%;">
+                        <tr>
+                            <td style="vertical-align: top;width:40px;"></td>
+                            <td>
+                                I den blå boks står navnene på 7 typer figurer.
+                                <br /><br />
+                                <table style="width: 20%; margin-left: 40%; border: 2px solid #009ee3; background-color: #82d0f5;" cellpadding="5">
+                                    <tr>
+                                        <td style="line-height: 1.4em;">
+                                            rektangel
+                                            <br />
+                                            kvadrat
+                                            <br />
+                                            parallelogram
+                                            <br />
+                                            trapez
+                                            <br />
+                                            retvinklet trekant
+                                            <br />
+                                            ligebenet trekant
+                                            <br />
+                                            ligesidet trekant  
+                                        </td>
+                                    </tr>
+                                </table>  
+                                <br /><br />                          
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: top; width: 42px;"><span class="box blue">7.1</span></td>
+                            <td>
+                                <div style="padding-top:calc(0.1em + 2px);">
+                                    Undersøg, hvordan hver type figur kan se ud for at have arealet 50. Du kan begrunde dine resultater med beregninger eller tegninger. Husk at skrive, hvilken type figur hver af dine beregninger eller tegninger hører til.
+                                    <br /><br />
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <br /><br /><br /><br />
+                </div>                
+                 
+                <!--Mellemrum-->
+                <div class="PAGE" data-id="12" data-parentid="0" data-layout="0" data-menutekst=""></div>
+                
+
+                 <!--Bilag til opgave 3-->
+                 <div class="PAGE" data-id="13" data-parentid="0" data-layout="0" data-menutekst="Bilag til opgave 3">
+                    <h1>Bilag til opgave 3</h1>
+                    <br />                    
+                    <a href="files/194033_haver_dec_2020.jpg" target="_blank">Billedefil til opgave 3</a>
+                    <br /><br />                   
+                    <a href="files/194033_svarark.pdf" target="_blank">Svarark til opgave 3</a>
+                    <br /><br /><br /><br />
+                </div>
+
+                 <!--Mellemrum-->
+                 <div class="PAGE" data-id="14" data-parentid="0" data-layout="0" data-menutekst=""></div>
+
+                <!--Bilag til opgave 4-->
+				<div class="PAGE" data-id="15" data-parentid="0" data-layout="0" data-menutekst="Bilag til opgave 4">
+                    <h1>Bilag til opgave 4</h1>
+                    <br />   
+                    <a href="files/194033_ture_dec_2020.xlsx" target="_blank">Excelfil til opgave 4</a>
+				</div>
+				 
+				
+          		
+
+            </div> <!-- END CONTENT -->
+        </div> <!-- END MAIN -->
+        <div id="bottomMenu"></div>
+    </div>
+</body>
+</html>
